@@ -2,7 +2,7 @@ body {
     font-family: Public Sans, sans-serif;
 }
 
-.lista {
+.fotos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,47 +12,43 @@ body {
     gap: 1px;
 }
 
-.foto {
-    width: 335px;
-    height: 432px;
-
+.imagem {
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
+    
+    width: 335px;
+    height: 432px;
     gap: 5px;
     padding: 20px 22px;
+    color: #fff;
 }
 
-.foto h2 {
+.imagem h2 {
     font-size: 30px;
     font-weight: 700;
 
 }
 
-.foto p {
+.imagem p {
     font-size: 17px;
     font-weight: 300;
 }
 
-.foto h2, p {
-    color: #fff;
-}
-
-.foto.rome{
+.imagem.rome{
     background: url(../Images/rome.png) center center no-repeat;
 }
 
-.foto.boat{
+.imagem.boat{
     background: url(../Images/boat.png) center center no-repeat;
 }
 
-.foto.sand{
+.imagem.sand{
     background: url(../Images/sand-and-sea.png) center center no-repeat;
 }
 
-.foto.starry{
+.imagem.starry{
     background: url(../Images/starry-night.png) center center no-repeat;
 }
-
 
