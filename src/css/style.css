@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .lista {
+        flex-direction: row;
+        height: 100vh;
+        gap: 20px;
+    }
+
+    .foto {
+        padding: 43px 16px;
+    }
+}
