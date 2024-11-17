@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap" rel="stylesheet">
 
-    <title>Lista de Imagens</title>
+    <title>Lista de Imagens - FlexBox</title>
 </head>
 <body>
-    <main class="fotos">
-        <a class="imagem rome" href="#">
-                <h2>Roma</h2>
-                <p>Michelangelo</p>
-        </a>
+    <main>
+        <section class="pinturas">
+            
+            <div class="pintura">
+                <img src="src/Images/rome.png" alt="Pintura Rome">
 
-        <a class="imagem boat" href="#">
-            <h2>Boat at Sea</h2>
-            <p>Vincent Van Gogh</p>
-        </a>
+                <div class="informacoes">
+                    <h2 class="titulo">Rome</h2>
+                    <h3 class="subtitulo">Michelangelo</h3>
+                </div>
+            </div>
 
-        <a class="imagem sand" href="#">
-            <h2>Sand and Sea</h2>
-            <p>Da vinci</p>
-        </a>
+            <div class="pintura">
+                <img src="src/Images/boat.png" alt="Boat at Sea">
 
-        <a class="imagem starry" href="#">
-                <h2>Starry Night</h2>
-                <p>Vincent Van Gogh</p>
-        </a>
+                <div class="informacoes">
+                    <h2 class="titulo">Boat at Sea</h2>
+                    <h3 class="subtitulo">Vincent Van Gogh</h3>
+                </div>
+            </div>
+
+            <div class="pintura">
+                <img src="src/Images/sand-and-sea.png" alt="Pintura Rome">
+
+                <div class="informacoes">
+                    <h2 class="titulo">Sand and Sea</h2>
+                    <h3 class="subtitulo">Da Vinci</h3>
+                </div>
+            </div>
+
+            <div class="pintura">
+                <img src="src/Images/starry-night.png" alt="Pintura Rome">
+                
+                <div class="informacoes">
+                    <h2 class="titulo">Starry Night</h2>
+                    <h3 class="subtitulo">Vincent Van Gogh</h3>
+                </div>
+            </div>
+
+        </section>
     </main>
 </body>
 </html>

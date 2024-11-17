@@ -1,11 +1,44 @@
-@media (min-width: 768px) {
-    .fotos {
-        flex-direction: row;
-        height: 100vh;
-        gap: 20px;
-    }
+html {
+    font-family: Public Sans, sans-serif;
+}
 
-    .imagem {
-        padding: 43px 16px;
-    }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pinturas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pinturas .pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    color: #ffffff;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo {
+    font-size: 17px;
+    font-weight: 300;
 }
